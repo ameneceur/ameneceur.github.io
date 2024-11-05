@@ -77,14 +77,12 @@ content:
           Economic models and scenarios - from time series to the topology of a chaotic attractor
         description: | # this will include new lines to allow paragraphs
           Tasks included :
+                    <img src="/images/3dattractorw.png" alt="attractor" width="30%" height="auto" align="right">
           - Production of a software producing ODE systems from economic time series
           - Study of the said time series
           - Production of a software for the topological analysis of a chaotic attractor
           - Study of macroeconomic theoretical background
           - Production of a deterministic model
-
-          <img src="/images/3dattractorw.png" alt="attractor" width="30%" height="auto" align="right">
-          - Test
       # - layout: right
       #   border: weak  # Value of `weak` will display a weak border below this item. # Any 
       #                 # other value (or no value) means no border will be displayed
