@@ -55,14 +55,16 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  I recently graduated in [Modelling Mathematics](https://www.ljll.fr/MathModel/presentation/mbio.html) at Sorbonne-Université.  I am currently considering any PhD opportunity involving interdisciplinarity, and interactions between mathem
+  I recently graduated in [Modelling Mathematics](https://www.ljll.fr/MathModel/presentation/mbio.html) at Sorbonne-Université.  I am currently considering any PhD opportunity involving interdisciplinarity, and interactions between mathematics and diverse social sciences disciplines, such as ethology, behavioral ecology, demography, population dynamics, etc.
+
+  Throughout my academic background and my interships I have acquired many skills that range from <\mark>Functional analysis<\mark> to <\mark>Stochastic process<\mark>. I am proficient with a variety of programming languages and their usages as well.
   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  # You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+  #   - Lists
+  #   - Tables
+  #   - <a href="google.com">Links</a>
+  #   - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
   - title: Projects # Title for the section
