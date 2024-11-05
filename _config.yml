@@ -109,7 +109,7 @@ content:
           Description of qualification
   - title: Publications
     layout: text
-    content:
+    content: |
       ---
       bibliography: publications.bib
       nocite: '@*'
