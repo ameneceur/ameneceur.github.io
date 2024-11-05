@@ -107,13 +107,13 @@ content:
           Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
           Description of qualification
-  - title: Publications
-    layout: text
-    content: |
-      ---
-      bibliography: publications.bib
-      nocite: '@*'
-      ---
+  # - title: Publications
+  #   layout: text
+  #   content: |
+  #     ---
+  #     bibliography: publications.bib
+  #     nocite: '@*'
+  #     ---
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
@@ -123,7 +123,7 @@ content:
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
+references_title: based on a template by [Brett Harris](https://github.com/sproogen/modern-resume-theme)
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
