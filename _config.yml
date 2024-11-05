@@ -104,14 +104,18 @@ content:
         title: Sorbonne-Université
         sub_title: "Mathematiques de la modélisation" (Mathematics of Modelling) MSc
         caption: 2024
+        quote: >
+          Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of qualification
       - layout: right
         title: Institution name
         sub_title: Qualifications (eg. BA Performing Arts)
         caption: Date Range (eg. 2016 - 2019)
-        # quote: >
-          # Short institution or course description (optional)
-        # description: | # this will include new lines to allow paragraphs
-          # Description of qualification
+        quote: >
+          Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of qualification
           
   # - title: Publications
   #   layout: text
