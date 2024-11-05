@@ -81,8 +81,8 @@ content:
           - Study of the said time series
           - Production of a software for the topological analysis of a chaotic attractor
           - Study of macroeconomic theoretical background
-          - Production of a deterministic mode
-          <img src="images/3dattractorw.png" alt="attractor" width="20"/>
+          - Production of a deterministic model
+          ![attractor](images/3dattractorw.png)
       # - layout: right
       #   border: weak  # Value of `weak` will display a weak border below this item. # Any 
       #                 # other value (or no value) means no border will be displayed
