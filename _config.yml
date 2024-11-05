@@ -66,7 +66,7 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Internship - Economic models and scenarios - from time series to the topology of a chaotic attractor
+        title: MSc Internship 
         link: ameneceur.github.io/docs/rapportdestage.pdf
         link_text: Internship report
         additional_links:
@@ -74,7 +74,7 @@ content:
             icon: fab fa-github
             url: N/A
         quote: >
-          Short overview of the project (optional)
+          Economic models and scenarios - from time series to the topology of a chaotic attractor
         description: | # this will include new lines to allow paragraphs
           Tasks included :
           - Production of a software producing ODE systems from economic time series
@@ -98,20 +98,19 @@ content:
       #   quote: >
       #     Short overview of the project (optional)
       #   description: | # this will include new lines to allow paragraphs
-      #     Description about the work on/with the project          
-      
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+      #     Description about the work on/with the project             
+  # - title: Experience
+  #   layout: list
+  #   content:
+  #     - layout: right
+  #       title: Company name
+  #       sub_title: Job title
+  #       caption: Date Range (eg. November 2016 - present)
+  #       link: Link to company (optional)
+  #       quote: >
+  #         Short description of the company (optional)
+  #       description: | # this will include new lines to allow paragraphs
+  #         Description of role
   - title: Education
     layout: list
     content:
