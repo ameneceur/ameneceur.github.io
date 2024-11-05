@@ -123,7 +123,8 @@ content:
 
 # Footer
 footer_show_references: true
-references_title: based on a template by [Brett Harris](https://github.com/sproogen/modern-resume-theme)
+references_title: based on a template by <a href="https://github.com/sproogen/modern-resume-theme">Brett Harris</a>
+
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
