@@ -83,7 +83,8 @@ content:
           - Study of macroeconomic theoretical background
           - Production of a deterministic model
 
-          <img src="/images/3dattractorw.png" alt="attractor" width="20%" height="auto" align="right">
+          <img src="/images/3dattractorw.png" alt="attractor" width="30%" height="auto" align="right">
+          - Test
       # - layout: right
       #   border: weak  # Value of `weak` will display a weak border below this item. # Any 
       #                 # other value (or no value) means no border will be displayed
