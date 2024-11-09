@@ -134,13 +134,12 @@ content:
         description: | # this will include new lines to allow paragraphs
           Master a variety of tools for the production of deterministic and stochastic models. Courses included: dynamic systems, functional analysis, control theory, stochastic process, stochastic differential equations, probabilistic numerical methods. 
       - layout: top-left
-        title: MSc
-        sub_title: Sorbonne-Université
-        caption: 2024
+        title: Mathematics BSc
+        sub_title: Université Paris-Cité
+        caption: 2020
         quote: >
-          "Mathématiques de la modélisation" / "Modelling mathematics"
+          
         description: | # this will include new lines to allow paragraphs
-          Master a variety of tools for the production of deterministic and stochastic models. Courses included: dynamic systems, functional analysis, control theory, stochastic process, stochastic differential equations, probabilistic numerical methods. 
   # - title: Publications
   #   layout: text
   #   content: |
