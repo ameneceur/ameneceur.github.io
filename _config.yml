@@ -5,6 +5,14 @@ repository: Git repository where your resume will be hosted, only required if yo
 # Content configuration version
 version: 2
 
+markdown: pandoc
+
+pandoc:
+  format: html
+  extensions:
+    - smart
+    - bibliography: 'readings.bib'
+
 # Personal info
 name: Alexandre Meneceur
 title: Applied mathematics graduate
@@ -139,19 +147,7 @@ content:
 
       Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
-    @article{Lambert2014,
-      title = {Russell A. Mittermeier,  Anthony B. Rylands,  and Don E. Wilson (eds.).2013. Handbook of the Mammals of the World: 3. Primates. Lynx Ediciones,  Barcelona,  Spain,  953 pp. ISBN: 978-84-96553-89-7,  price (hardbound),  160.00 EURO},
-      volume = {95},
-      ISSN = {1545-1542},
-      url = {http://dx.doi.org/10.1644/14-MAMM-R-059},
-      DOI = {10.1644/14-mamm-r-059},
-      number = {4},
-      journal = {Journal of Mammalogy},
-      publisher = {Oxford University Press (OUP)},
-      author = {Lambert,  Joanna E.},
-      year = {2014},
-      month = aug,
-      pages = {906–907}}
+
 
 
 
