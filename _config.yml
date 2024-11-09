@@ -126,8 +126,16 @@ content:
     layout: list
     content:
       - layout: top-right
-        title: Sorbonne-Université
-        sub_title: MSc
+        title: MSc
+        sub_title: Sorbonne-Université
+        caption: 2024
+        quote: >
+          "Mathématiques de la modélisation" / "Modelling mathematics"
+        description: | # this will include new lines to allow paragraphs
+          Master a variety of tools for the production of deterministic and stochastic models. Courses included: dynamic systems, functional analysis, control theory, stochastic process, stochastic differential equations, probabilistic numerical methods. 
+      - layout: top-right
+        title: MSc
+        sub_title: Sorbonne-Université
         caption: 2024
         quote: >
           "Mathématiques de la modélisation" / "Modelling mathematics"
