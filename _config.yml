@@ -126,8 +126,8 @@ content:
     layout: list
     content:
       - layout: top-right
-        title: Sorbonne-Universite
-        sub_title: Math
+        title: Sorbonne-Université
+        sub_title: "Mathématiques de la modélisation"
         caption: Date Range (eg. 2016 - 2019)
         quote: >
           Short institution or course description (optional)
