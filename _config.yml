@@ -67,6 +67,8 @@ about_content: | # this will include new lines to allow paragraphs
 
   Throughout my academic background and my interships I have acquired many skills that range from <mark>Functional analysis</mark> to <mark>Stochastic process</mark>. I am proficient with a variety of programming languages and their usages as well.
 
+  A few referees can be found in my [resume](ameneceur.github.io/docs/resume.pdf).
+
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -150,9 +152,10 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+      Ever since my graduation, I've been working to develop, improve and deepen my skills in Statistics and Learning. 
+      On a more personal level, I've developped a particular interest in Primatology and Ethology. 
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      Here is a collection of my readings and working materials on those subjects : 
 
       <iframe src="readings.html" width="1200" height="500" frameborder="0"></iframe>
 
