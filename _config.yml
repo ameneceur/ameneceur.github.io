@@ -154,7 +154,10 @@ content:
 
       Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
-      {% include {{readings.html}} %}
+      <object data="readings.html"> 
+      Your browser doesn’t support the object tag. 
+      </object>
+
 
 
 
