@@ -65,12 +65,12 @@ about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
   I recently graduated in [Modelling Mathematics](https://www.ljll.fr/MathModel/presentation/mbio.html) at Sorbonne-Université.  I am currently considering any PhD opportunity involving interdisciplinarity, and interactions between mathematics and diverse social sciences disciplines, such as ethology, behavioral ecology, demography, population dynamics, etc.
 
-  Throughout my academic background and my interships I have acquired many skills that range from <mark>Functional analysis</mark> to <mark>Stochastic process</mark>. I am proficient with a variety of programming languages and their usages as well.
+  Throughout my academic background and my interships I have acquired many skills that range from <mark>Functional analysis</mark> to <mark>Stochastic process</mark>. I am proficient in a variety of programming languages and their usages as well.
 
   A few referees can be found in my [resume](ameneceur.github.io/docs/resume.pdf).
 
 content:
-  - title: Projects # Title for the section
+  - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -89,7 +89,7 @@ content:
           Tasks included :
                     <img src="/images/3dattractorw.png" alt="attractor" width="35%" height="auto" align="right">
           - Production of a software producing ODE systems from economic time series
-          - Study of the said time series
+          - Study and treatment of the said time series
           - Production of a software for the topological analysis of a chaotic attractor
           - Study of macroeconomic theoretical background
           - Production of a deterministic model
@@ -128,18 +128,19 @@ content:
     layout: list
     content:
       - layout: top-right
-        title: MSc
+        title: Mathematics MSc
         sub_title: Sorbonne-Université
         caption: 2024
         quote: >
           "Mathématiques de la modélisation" / "Modelling mathematics"
         description: | # this will include new lines to allow paragraphs
           Master a variety of tools for the production of deterministic and stochastic models. Courses included: dynamic systems, functional analysis, control theory, stochastic process, stochastic differential equations, probabilistic numerical methods. 
-      - layout: top-left
+      - layout: top-right
         title: Mathematics BSc
         sub_title: Université Paris-Cité
         caption: 2020
         quote: >
+          "Mathématiques fondamentales et appliquées" / "Fundamental and applied mathematics"
           
         description: | # this will include new lines to allow paragraphs
   # - title: Publications
