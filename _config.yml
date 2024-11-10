@@ -48,7 +48,7 @@ additional_links:
   url: https://kaggle.com/ameneceur
 - title: Resume
   icon: far fa-solid fa-file
-  url: ameneceur.github.io
+  url: ameneceur.github.io/docs/resume.pdf
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -67,7 +67,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   Throughout my academic background and my interships I have acquired many skills that range from <mark>Functional analysis</mark> to <mark>Stochastic process</mark>. I am proficient in a variety of programming languages and their usages as well.
 
-  A few referees can be found in my [resume](ameneceur.github.io/docs/resume.pdf).
+  A few referees can be found in my [resume](docs/resume.pdf).
 
 content:
   - title: Experience # Title for the section
