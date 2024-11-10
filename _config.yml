@@ -154,6 +154,8 @@ content:
 
       Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
+      {% include_relative readings.html %}
+
 
 
 
