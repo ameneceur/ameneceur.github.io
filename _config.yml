@@ -128,15 +128,15 @@ content:
     layout: list
     content:
       - layout: top-right
-        title: Mathematics MSc
+        title: MSc in Mathematics
         sub_title: Sorbonne-Université
         caption: 2024
         quote: >
           "Mathématiques de la modélisation" / "Modelling mathematics"
         description: | # this will include new lines to allow paragraphs
-          Master a variety of tools for the production of deterministic and stochastic models. Courses included: dynamic systems, functional analysis, control theory, stochastic process, stochastic differential equations, probabilistic numerical methods. 
+          Master a variety of tools for the production of deterministic and stochastic models. Courses included: dynamical systems, functional analysis, control theory, stochastic process, stochastic differential equations, probabilistic numerical methods. 
       - layout: top-right
-        title: Mathematics BSc
+        title: BSc in Mathematics
         sub_title: Université Paris-Cité
         caption: 2020
         quote: >
@@ -150,11 +150,11 @@ content:
   #     bibliography: publications.bib
   #     nocite: '@*'
   #     ---
-  - title: A Little More About Me
+  - title: Personal Insights
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Ever since my graduation, I've been working to develop, improve and deepen my skills in Statistics and Learning. 
-      On a more personal level, I've developped a particular interest in Primatology and Ethology. 
+      Ever since my graduation, I have been working to develop, improve and deepen my skills in Statistics and Learning, by both practicing with building models, and reading books and solving problems on the matter.
+      On a more personal level, I have a keen interest in Primatology and Ethology. 
 
       Here is a collection of my readings and working materials on those subjects : 
 
