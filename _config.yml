@@ -61,7 +61,7 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+# about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
   I recently graduated in [Modelling Mathematics](https://www.ljll.fr/MathModel/presentation/mbio.html) at Sorbonne-Université.  I am currently considering any PhD opportunity involving interdisciplinarity, and interactions between mathematics and diverse social sciences disciplines, such as ethology, behavioral ecology, demography, population dynamics, etc.
 
