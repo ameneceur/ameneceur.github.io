@@ -1,0 +1,263 @@
+
+MODS start: Sun Jan  5 16:39:36 2025 
+
+Command Line : gputest.js -no_gold -test 275 
+
+CPU
+Arch           : x86_64
+Name           : AMD Ryzen 7 5800X 8-Core Processor
+Cores          : 16
+
+Version
+MODS           : 455.71
+
+System
+OperatingSystem: Linux (x86_64)
+Kernel         : 5.9.1-gentoo-x86_64
+KernelDriver   : 4.00
+SBIOS Version  : 1.I0
+SBIOS Date     : 07/13/2024
+HostName       : tinylinux
+Available RAM  : 31627/32168 MB (Free/Size)
+Sys-uuid       :  
+HDD-Serno      : 
+
+                 GPU 0 [2b:00.0]  dev.sub 0.0             
+                 ---------------------------------------- 
+DevInst        : 0                                        
+PCI Location   : 0x00, 0x2b, 0x00, 0x00                   
+GPU DID        : 0x2482                                   
+PDI            : 0xdeb2e7bb6b598158                       
+Raw ECID       : 0x008003000000002811e035c4               
+Raw ECID (GHS) : 0x4702811e0340000000c000100              
+ECID           : SAMSUNG-SA17WD-12_x0_y4                  
+Device Id      : _iVFi                                    
+Revision       : a1                                       
+Sub Revision   : 1                                        
+NV Base        : 0xfb000000                               
+FB Base        : 0x7c00000000                             
+IRQ            : 255                                      
+
+ERROR: ** ModsDrvBreakPoint on GPU 0 [2b:00.0] **
+
+[ 0] ------------------------- BEGIN ASSERT INFO DUMP -------------------------
+[  ] Successfully opened /home/455.127/random2d.jse
+[  ] Successfully opened /home/455.127/fpk_comm.he
+[  ] Successfully opened /home/455.127/fileid.jse
+[  ] Compiling random2d.jse.
+[  ] Compiled random2d.jse, pScript = 0x0xb726ca0.
+[  ] Executing random2d.jse.
+[  ] <---random2d.jse
+[  ] pvstest.jse does not exist.
+[  ] <gputest.jse
+[  ] 
+[  ] Done parsing args
+[  ] >base.spc
+[  ] Preprocessing base.spc.
+[  ] Successfully opened /home/455.127/base.spc
+[  ] Compiling base.spc.
+[  ] Compiled base.spc, pScript = 0x0xb701f10.
+[  ] Executing base.spc.
+[  ] <base.spc
+[  ] Command Line : gputest.js -no_gold -test 275 
+
+[  ] CPU
+[  ] Arch           : x86_64
+[  ] Name           : AMD Ryzen 7 5800X 8-Core Processor
+[  ] Cores          : 16
+[  ] 
+[  ] Version
+[  ] MODS           : 455.71
+[  ] 
+[  ] System
+[  ] OperatingSystem: Linux (x86_64)
+[  ] Kernel         : 5.9.1-gentoo-x86_64
+[  ] KernelDriver   : 4.00
+[  ] SBIOS Version  : 1.I0
+[  ] SBIOS Date     : 07/13/2024
+[  ] HostName       : tinylinux
+[  ] Available RAM  : 31627/32168 MB (Free/Size)
+[  ] NUMA Node 0 RAM: 31627/32168 MB (Free/Size)
+[  ] Successfully opened /sys/firmware/efi/systab
+[  ] SMBIOS entry point at 0xdd9c8000
+[  ] Sysmem page size is 4 KB
+[  ] Smbios version [0x208] is not supported
+[  ] Failed to Read system UUID, this requires root permissions to run
+[  ] Sys-uuid       :  
+[  ] Failed to Read Hdisk Serial num, this requires root permissions to run
+[  ] HDD-Serno      : 
+[  ] 
+[  ] Turning off register exclusion regions.
+[  ] >boards.jse
+[  ] Preprocessing boards.jse.
+[  ] Successfully opened /home/455.127/boards.jse
+[  ] Compiling boards.jse.
+[  ] Compiled boards.jse, pScript = 0x0xba982f0.
+[  ] Executing boards.jse.
+[  ] <boards.jse
+[  ] CreateNvLinkLibInterface : Creating NvLink library interface NvLinkLibIfUser
+[  ] CreateAllDevInterfaces : Created NvLink device interface NvSwitchDevIf
+[  ] CreateAllDevInterfaces : Created NvLink device interface NvGpuDevIf
+[  ] CreateAllDevInterfaces : Created NvLink device interface IbmNpuDevIf
+[  ] Warning: Can't find Pci device with class code 0x68000, index 0 
+[  ] Find NvSwitch ports
+[  ] -------Finish NvSwitch detection-----
+[  ] NVRM: Unrecognized AMD processor in cpuidInfoAMD
+[  ] Physical Graphics controller at 0000:2b:00.0
+[  ] reg virtual base = 0x7fea9cffc000
+[  ] IOVA enabled
+[  ] Detected 47 sysmem address bits for chip id 0xc04 at 0000:2b:00.0, IOVA enabled
+[  ] BAR0 base = 0x0_FB000000,
+     size = 0x01000000
+[  ] BAR1 base = 0x7C_00000000,
+     size = 0x200000000
+[  ] BAR2 base = 0x7E_00000000,
+     size = 0x02000000
+[  ] Vendor ID = 0x10DE
+[  ] Device ID = 0x2482
+[  ] Chip ID   = 0x00000174
+[  ] [0000:2b:00.0] cap id 0x5 found at offs 0x68
+[  ] [0000:2b:00.0] cap id 0x11 not found
+[  ] Register manual file _ivfi_ref.txt not found
+[  ] Warning: Can't find Pci device with class code 0x30000, index 1 
+[  ] Warning: Can't find Pci device with class code 0x30200, index 0 
+[  ] Warning: Can't find Pci device
+[  ] Find ibmnpu ports
+[  ] -------Finish ibmnpu detection-----
+[  ] Found Test Devices :
+[  ]    GPU 0 [2b:00.0]
+[  ] CreateAll : Created topology manager implementation TopologyManagerProtobuf
+[  ] CreateAll : Created topology manager implementation TopologyManagerProtobufLR
+[  ] CreateAll : Created topology manager implementation TopologyManagerAuto
+[  ] Initialize : Topology file not specified, skipping.
+[  ] Initialize : Topology file not specified, skipping.
+[  ] Find bridge ports
+[  ] [0000:00:01.1] bridge sec=01 sub=01 vendor=1022 devid=1482 uniq_link_poll=false
+[  ] [0000:00:01.2] bridge sec=02 sub=2a vendor=1022 devid=1482 uniq_link_poll=false
+[  ] [0000:00:03.1] bridge sec=2b sub=2b vendor=1022 devid=1482 uniq_link_poll=false
+[  ] [0000:00:07.1] bridge sec=2c sub=2c vendor=1022 devid=1482 uniq_link_poll=false
+[  ] [0000:00:08.1] bridge sec=2d sub=2d vendor=1022 devid=1482 uniq_link_poll=false
+[  ] [0000:02:00.2] bridge sec=03 sub=2a vendor=1022 devid=43ee uniq_link_poll=false
+[  ] [0000:03:00.0] bridge sec=04 sub=04 vendor=1022 devid=43ea uniq_link_poll=false
+[  ] [0000:03:09.0] bridge sec=2a sub=2a vendor=1022 devid=43ea uniq_link_poll=false
+[  ] Warning: Can't find Pci device with class code 0x60400, index 8 
+[  ] Find siblings at 0000:00:xx.x
+[  ]   Sibling found: domain=0000 sec=01 sub=01
+[  ]   Sibling found: domain=0000 sec=02 sub=2a
+[  ]   Sibling found: domain=0000 sec=2b sub=2b
+[  ]   Sibling found: domain=0000 sec=2c sub=2c
+[  ]   Sibling found: domain=0000 sec=2d sub=2d
+[  ]   Found chipset controller's port at 0000:00:01.1
+[  ] [0000:00:01.1] cap id 0x10 found at offs 0x58
+[  ] [0000:00:01.1] extended cap id 0x1e found at offs 0x0370
+[  ] [0000:00:01.1] extended cap id 0x1 not found
+[  ] [0000:00:01.2] cap id 0x10 found at offs 0x58
+[  ] [0000:00:01.2] extended cap id 0x1e found at offs 0x0370
+[  ] [0000:00:01.2] extended cap id 0x1 not found
+[  ] [0000:00:03.1] cap id 0x10 found at offs 0x58
+[  ] [0000:00:03.1] extended cap id 0x1e found at offs 0x0370
+[  ] [0000:00:03.1] extended cap id 0x1 not found
+[  ] [0000:00:07.1] cap id 0x10 found at offs 0x58
+[  ] [0000:00:07.1] extended cap id 0x1 found at offs 0x0150
+[  ] [0000:00:08.1] cap id 0x10 found at offs 0x58
+[  ] [0000:00:08.1] extended cap id 0x1 found at offs 0x0150
+[  ] Root check: 0000:00:01.1 IsRoot=true
+[  ] Connecting ports for Chipset 0000:00:01.1:
+[  ]   DP2 0000:00:03.1 connects to test device GPU 0 [2b:00.0]
+[  ] ------Finish bridge detection-----
+[  ] InitializeAllDevices : RM not initialized, skipping GPU nvlink device initialization
+[  ]                  GPU 0 [2b:00.0]  dev.sub 0.0             
+[  ]                  ---------------------------------------- 
+[  ] DevInst        : 0                                        
+[  ] PCI Location   : 0x00, 0x2b, 0x00, 0x00                   
+[  ] GPU DID        : 0x2482                                   
+[  ] PDI            : 0xdeb2e7bb6b598158                       
+[  ] Raw ECID       : 0x008003000000002811e035c4               
+[  ] Raw ECID (GHS) : 0x4702811e0340000000c000100              
+[  ] ECID           : SAMSUNG-SA17WD-12_x0_y4                  
+[  ] Device Id      : _iVFi                                    
+[  ] Revision       : a1                                       
+[  ] Sub Revision   : 1                                        
+[  ] NV Base        : 0xfb000000                               
+[  ] FB Base        : 0x7c00000000                             
+[  ] IRQ            : 255                                      
+[  ] MSI-X not supported on GPU 0 [2b:00.0], skipping
+[  ] Detected supported interrupt types: legacy MSI
+[  ] IRQ statistics:
+[  ]   num IRQs:      10
+[  ]   avg IRQ delay: 0us
+[  ]   min IRQ delay: 0us
+[  ]   max IRQ delay: 0us
+[  ] Legacy interrupts verified OK
+[  ] IRQ statistics:
+[  ]   num IRQs:      10
+[  ]   avg IRQ delay: 0us
+[  ]   min IRQ delay: 0us
+[  ]   max IRQ delay: 0us
+[  ] MSI verified OK
+[  ] Skipping MSI-X verification
+[  ] Hooking MSI
+[  ] [0000:2b:00.0] cap id 0x10 found at offs 0x78
+[  ] [0000:2b:00.0] cap id 0x10 found at offs 0x78
+[  ] Warning: Can't find Pci device with class code 0x40300, index 2 
+[  ] _iVFi Azalia: DeviceId: 0x228b.
+[  ] Bypassing unsupported vendor: 0x1022Device already uninitialized
+[  ] Found 1 controllers (DevId 127) 
+[  ] SetAspm on GPU: 0x10840142
+[  ] Reset polled 2 times in 0 us on AzaRegWaitPoll and returned 0.
+[  ] Reset polled 2 times in 0 us on AzaRegWaitPoll and returned 0.
+[  ] Found codec on sdin 0
+[  ] The codec contains 1 function group(s).
+[  ] PEX: set downstream ASPM=0x70840042
+[  ] [0000:2b:00.0] cap id 0x10 found at offs 0x78
+[  ] DRAM info read from PreOS PBI not supported
+[  ] Failed to get DRAM information from VBIOS preOS PBI. Will attempt to read from the DRAM.
+[  ] NVRM: Child aperture crosses parent's boundary, length 925696 offset 0, Parent's length 0
+[  ] NVRM: Child aperture crosses parent's boundary, length 1024 offset 0, Parent's length 0
+[  ] Setup dma base only supported on PPC, skipping
+[  ] ACPI: Unable to evaluate dev method _DSM, id 0xffffffff on 0000:2b:00.0
+[  ] ACPI: Unable to evaluate dev method _DSM, id 0xffffffff on 0000:2b:00.0
+[  ] ACPI: Unable to evaluate dev method _DSM, id 0xffffffff on 0000:2b:00.0
+[  ] ACPI: Unable to evaluate dev method _DSM, id 0xffffffff on 0000:2b:00.0
+[  ] ACPI: Unable to evaluate dev method _DSM, id 0xffffffff on 0000:2b:00.0
+[  ] ACPI: Unable to evaluate dev method _DSM, id 0xffffffff on 0000:2b:00.0
+[  ] Found (0, 0, 20, 0) with cc = 0xc0500, vid = 0x1022, did = 0x790b
+[  ] --- Not Intel chip (0, 0, 20, 0) vid = 0x1022 did = 0x790b---
+[  ] Warning: Can't find Pci device with class code 0xc0500, index 1 
+[  ] SMBus controller Not found
+[  ] ACPI: Unable to evaluate dev method PG00._STA, id 0xffffffff on 0000:00:03.1
+[  ] NVRM: VGA workspace base is invalid.
+[  ] NVRM: VGA workspace base is invalid.
+[  ] NVRM: OBJVBIOS: Unknown BIT token 0x45! Skipping...
+[  ] NVRM: Revlock: VBIOS or RM Revlock level too low.
+[  ] NVRM: MinimumRmRevlockLvl: 18
+[  ] NVRM: currentRmRevlockLvl: 15
+[  ] NVRM: minimumVbiosRevlockLvl: 0
+[  ] NVRM: CurrentVbiosRevlockLvl: 0
+[  ] NVRM: bp @ <fileid:0x0001ac>:2804
+[  ] 
+[  ] ** ModsDrvBreakPoint on GPU 0 [2b:00.0] **
+
+[ 0] -------------------------- END ASSERT INFO DUMP --------------------------
+Error 000000000542 : Gpu.Initialize NVRM VBIOS invalid or rejected [0.771 seconds]
+Error 000000000542 : Global.PrintGpuInitError NVRM VBIOS invalid or rejected [0.000 seconds]
+Error 000000000542 : Global.InitializeGpuTests NVRM VBIOS invalid or rejected [0.783 seconds]
+ERROR: Unable to determine current VGA mode, ax=0x4f03
+ERROR: Unable to set VESA mode 0x3, ax=0x4f02
+Error 000000000237 : Global.EnableUserInterface unable to set mode [0.000 seconds]
+
+Error Code = 000000000818 (Mods detected an assertion failure)
+
+                                        
+ #######     ####    ########  ###      
+ #######    ######   ########  ###      
+ ##        ##    ##     ##     ###      
+ ##        ##    ##     ##     ###      
+ #######   ########     ##     ###      
+ #######   ########     ##     ###      
+ ##        ##    ##     ##     ###      
+ ##        ##    ##  ########  ######## 
+ ##        ##    ##  ########  ######## 
+                                        
+
+MODS end  : Sun Jan  5 16:39:37 2025  [1.923 seconds (00:00:01.923 h:m:s)]
